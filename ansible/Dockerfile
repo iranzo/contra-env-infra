@@ -23,6 +23,7 @@ RUN dnf install -y ansible \
         python3-libcloud \
 	python2-google-auth \
 	python3-google-auth \
+	python3-crypto \
     	python2-virtualenv \
         dumb-init \
         rsync && \
